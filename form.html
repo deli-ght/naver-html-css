@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form test</title>
+  </head>
+  <body>
+    <h1> form 관련 요소</h1>
+    <fieldset>
+      <legend> 기본 정보 </legend>
+        <h2>1. text</h2>
+          <p>텍스트 입력 : <input type="text" placeholder="영어로만 입력하세요"></p>
+    <!-- placeholder : 입력창에 대한 힌트 -->
+      <h2>2. password</h2>
+        <p>비밀번호 입력 : <input type="password"></p>
+      <h2>3. radio</h2>
+        <p>남성 : <input type="radio" name="gender"> 여성 : <input type="radio" name="gender"> <br>
+        어른 : <input type="radio" name="age" checked> 아이 : <input type="radio" name="age"></p>
+    <!-- name으로 같은 값을 가진 버튼임을 암시-->
+      <h2>4. checkbox</h2>
+        <p>체크박스 입력 : <input type="checkbox"></p>
+    <!-- 다중선택 가능 -->
+    </fieldset>
+    <fieldset>
+  <legend> 추가 정보 </legend>
+      <h2>5. file</h2>
+        <p> <input type="file"> </p>
+      <h2>6. submit</h2>
+        <p> <input type="submit"> </p>
+      <h2>7. reset</h2>
+      <p> <input type="reset"> </p>
+    <h2>8. button</h2>
+      <p> <input type="button" value="button"> </p>
+    <!-- value로 버튼의 이름 설정 -->
+    <h2>9. image</h2>
+      <input type="image" src="" alt="pizza">
+    <h2>10. selection</h2>
+      <select>
+        <option> 서울 </option>
+        <option> 부산 </option>
+        <option> 경주 </option>
+        <option> 전주 </option>
+      </select>
+      <textarea name="name" rows="8" cols="80">
+      </textarea>
+  </fieldset>
+  </body>
+</html>
