@@ -1,0 +1,38 @@
+/* contents */
+.contents {
+  text-align: center;
+}
+
+.contents h3 {
+  font-size: 2em;
+}
+
+.contents .mainbtns {
+  margin-top: 30px;
+}
+
+.contents .mainbtns ul {
+  display: inline-block;
+  width: 300px;
+}
+.contents .mainbtns ul li {
+  float: left;
+  margin: 25px;
+}
+
+.contents .mainbtns ul li a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.contents #map {
+  display: inline-block;
+  background-image: url("./src/map.jpg");
+  width: 500px;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+}

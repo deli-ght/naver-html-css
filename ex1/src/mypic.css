@@ -1,0 +1,21 @@
+.myprofiles {
+  border-bottom: 2px solid gray;
+  overflow: auto;
+  padding: 30px 0;
+}
+
+.myprofiles:last-child {
+  border-bottom: none;
+}
+
+.mypics {
+  border: 10px solid gray;
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.myintro {
+  float: left;
+  width: 50%;
+}
