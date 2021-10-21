@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans KR', 'Roboto',sans-serif;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+#formContainer {
+  text-align: center;
+  display: inline-block;
+  width: 100vh;
+  height: 70vh;
+  background-color: white;
+}
+
+#formContainer h2 {
+  margin: 10px;
+  font-size: 32px;
+}
+
+#formContainer form {
+  width: 70%;
+  margin: 20px auto;
+  text-align: left;
+}
+
+#formContainer .whatLabel {
+  display: block;
+  font-size: 14px;
+  color: gray;
+}
+
+#formContainer .inputList {
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#formContainer #title {
+  width: 100%;
+}
+
+#formContainer .plabel {
+  font-size: 14px;
+}
+
+#priority {
+  margin-bottom: 40px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnContainer button,
+.btnContainer input {
+  border: none;
+  width: 120px;
+  height: 40px;
+}
+
+#previous {
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: underline;
+}
+
+.blueBtns {
+  display: inline-block;
+}
+
+.blueBtns .blueBtn {
+  background-color: rgb(45, 45, 102);
+  color: white;
+}
+
+.blueBtns #submit:hover{
+	background: rgb(11,7,66);
+background: linear-gradient(121deg, rgba(11,7,66,1) 0%, rgba(94,114,235,1) 47%, rgba(253,192,148,1) 100%);
+}
